@@ -2,26 +2,35 @@ import { Brain, Mail, Phone, MapPin, Linkedin, Twitter, Github } from "lucide-re
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-16">
+    <footer className="bg-black/95 backdrop-blur-sm text-white py-20 border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-4 gap-10">
           <div className="col-span-2">
             <div className="flex items-center space-x-2 mb-6">
               <Brain className="h-8 w-8 text-blue-400" />
               <span className="text-2xl font-bold">Ivarintelligence</span>
             </div>
-            <p className="text-gray-300 mb-6 leading-relaxed">
+            <p className="text-gray-300 mb-8 leading-relaxed text-lg">
               Transforming businesses through intelligent AI automation solutions. We help companies streamline
               operations, boost efficiency, and drive growth.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-blue-400 transition-colors p-2 bg-gray-800/50 rounded-lg hover:bg-gray-700/50"
+              >
                 <Linkedin className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-blue-400 transition-colors p-2 bg-gray-800/50 rounded-lg hover:bg-gray-700/50"
+              >
                 <Twitter className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-blue-400 transition-colors p-2 bg-gray-800/50 rounded-lg hover:bg-gray-700/50"
+              >
                 <Github className="h-6 w-6" />
               </a>
             </div>
@@ -67,11 +76,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-blue-400" />
-                <span>+91 123456789</span>
+                <span>+1 (555) 123-4567</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-blue-400" />
-                <span>TamilNadu, Chennai</span>
+                <span>San Francisco, CA</span>
               </div>
             </div>
           </div>
