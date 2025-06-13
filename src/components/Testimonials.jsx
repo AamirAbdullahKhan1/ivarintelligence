@@ -8,10 +8,10 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      name: "Sarah Johnson",
+      name: "Aamir Khan",
       position: "CEO",
-      company: "TechFlow Solutions",
-      image: "/placeholder.svg?height=80&width=80",
+      company: "XenTek",
+      image: "https://imgur.com/jQrK2Nf.jpg",
       content:
         "Ivarintelligence transformed our entire sales process with their AI automation. We've seen a 250% increase in qualified leads and our team efficiency has improved dramatically. Their expertise in CRM optimization is unmatched.",
       rating: 5,
@@ -107,7 +107,7 @@ const Testimonials = () => {
               <img
                 src={testimonials[currentIndex].image || "/placeholder.svg"}
                 alt={testimonials[currentIndex].name}
-                className="w-16 h-16 rounded-full border-2 border-blue-400"
+                className="w-16 h-16 rounded-full object-cover border-2 border-blue-400"
               />
               <div className="text-center">
                 <h4 className="text-white font-semibold text-lg">{testimonials[currentIndex].name}</h4>
@@ -148,7 +148,7 @@ const Testimonials = () => {
         {/* Trust Indicators */}
         <div className="mt-16 grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
           <div className="bg-gray-800/30 backdrop-blur-sm rounded-xl p-6 border border-gray-700/30">
-            <div className="text-3xl font-bold text-blue-400 mb-2">500+</div>
+            <div className="text-3xl font-bold text-blue-400 mb-2">50+</div>
             <div className="text-gray-300 text-sm">Happy Clients</div>
           </div>
           <div className="bg-gray-800/30 backdrop-blur-sm rounded-xl p-6 border border-gray-700/30">
